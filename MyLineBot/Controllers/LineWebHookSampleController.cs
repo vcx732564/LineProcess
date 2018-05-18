@@ -6,6 +6,8 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Text;
 
+using Newtonsoft.Json;
+
 namespace MyLineBot.Controllers
 {
     public class LineBotWebHookController : isRock.LineBot.LineWebHookControllerBase
@@ -37,7 +39,8 @@ namespace MyLineBot.Controllers
                             {
                                 //換行符號 %0D%0A %0D%0A 
                                 case "本月遊戲清單":
-
+                                    
+                                    
                                     string MyReply = "本月遊戲清單:  \n PS4 - 拉比哩比 (2018-05-08) ";
                                     MyReply += " \n PS4 - H1Z1 屍流感 (2018-05-22) ";
                                     MyReply += " \n PS4 - 女神異聞錄 5 星夜熱舞  (2018-05-25) ";
