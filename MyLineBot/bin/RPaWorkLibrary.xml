@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RPaWorkLibrary</name>
+    </assembly>
+    <members>
+        <member name="M:RPaWorkLibrary.ActionClass.SendEmail(System.String,System.String,System.Text.StringBuilder,System.Boolean)">
+            <summary>
+            此功能為寄信，寄信帳號為autosendemail01@gmail.com
+            </summary>
+            <param name="SendEmailAddress">收件者E-mail</param>
+            <param name="MailTitle">信件主旨</param>
+            <param name="sb">信件內容(StringBuilder)</param>
+            <param name="UseHtmlCode">是否使用html格式</param>
+        </member>
+        <member name="M:RPaWorkLibrary.ConvertData.Gridviwe_To_DataTable(System.Web.UI.WebControls.GridView,System.Data.DataTable)">
+            <summary>
+            Gridview 轉成 DataTable 
+            </summary>
+            <param name="GV">已Bound資料的Gridview</param>
+            <param name="dtSource">Gridview DataSource來源的DataTable</param>
+            <returns></returns>
+        </member>
+        <member name="M:RPaWorkLibrary.ConvertData.DataTable_To_Json(System.Data.DataTable)">
+            <summary>
+            DataTable 對象 轉換為Json 字符串
+            </summary>
+            <param name="dt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RPaWorkLibrary.ConvertData.Json_To_DataTable(System.String)">
+            <summary>
+            Json 字符串 轉換為 DataTable數據集合
+            </summary>
+            <param name="json"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RPaWorkLibrary.DealWithString.CheckDifficultWord(System.String)">
+            <summary>
+            難字檢查 
+            回傳false = 有難字 
+            回傳true  = 沒有難字
+            </summary>
+            <param name="sWord">要檢查的字串</param>
+            <returns></returns>
+        </member>
+        <member name="M:RPaWorkLibrary.Encryption.EnCodeString(System.String)">
+            <summary>
+            字串加密(可逆) 輸出Base64String 
+            </summary>
+            <param name="EnCodeString">要加密的字串</param>
+            <returns></returns>
+        </member>
+        <member name="M:RPaWorkLibrary.Encryption.DeCodeString(System.String)">
+            <summary>
+            字串解密 
+            </summary>
+            <param name="DeCodeString">要解密的字串</param>
+            <returns></returns>
+        </member>
+        <member name="M:RPaWorkLibrary.MSSQL.Get_Connection">
+            <summary>
+            取得連線，用完記得關閉連線跟Dispose
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RPaWorkLibrary.MSSQL.CloseConnection(System.Data.SqlClient.SqlConnection@)">
+            <summary>
+            關閉SqlConnection 並釋放指定成NULL
+            </summary>
+            <param name="Conn">已連線的SqlConnection</param>
+        </member>
+        <member name="M:RPaWorkLibrary.MSSQL.Act_Transation(System.String)">
+            <summary>
+            執行Transation
+            </summary>
+            <param name="Sql">要執行的SQL指令</param>
+        </member>
+        <member name="M:RPaWorkLibrary.MSSQL.Get_DataTable(System.String)">
+            <summary>
+            取的DataTable
+            </summary>
+            <param name="Sql">要執行的SQL指令</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

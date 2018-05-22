@@ -92,3 +92,6 @@ D:\CodingFile\LINEBOT\MyLineBot\LineProcess\MyLineBot\bin\zh-Hant\System.Web.Htt
 D:\CodingFile\LINEBOT\MyLineBot\LineProcess\MyLineBot\obj\Release\MyLineBot.csprojResolveAssemblyReference.cache
 D:\CodingFile\LINEBOT\MyLineBot\LineProcess\MyLineBot\obj\Release\MyLineBot.dll
 D:\CodingFile\LINEBOT\MyLineBot\LineProcess\MyLineBot\obj\Release\MyLineBot.pdb
+D:\CodingFile\LINEBOT\MyLineBot\LineProcess\MyLineBot\bin\RPaWorkLibrary.dll
+D:\CodingFile\LINEBOT\MyLineBot\LineProcess\MyLineBot\bin\RPaWorkLibrary.pdb
+D:\CodingFile\LINEBOT\MyLineBot\LineProcess\MyLineBot\bin\RPaWorkLibrary.xml
